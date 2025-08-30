@@ -36,9 +36,9 @@ function logIn() {
                 saveAuth(token, user);
 
                 if (user.role === "coder") {
-                    window.location.href = "/coder.html";
+                    window.location.href = "/coder";
                 } else if (user.role === "company") {
-                    window.location.href = "/company.html";
+                    window.location.href = "/company";
                 }
 
             } catch (error) {
