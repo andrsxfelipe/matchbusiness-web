@@ -74,13 +74,13 @@ async function getMatches() {
 function getCompanyLogo(company) {
     switch (company) {
         case 'Smart Fit':
-            return '<img src="./assets/smart-fit-logo.png" class="w-12 h-12 object-contain" alt="Smartfit">';
+            return '<img src="/smart-fit-logo.png" class="w-12 h-12 object-contain" alt="Smartfit">';
         case 'Auteco':
-            return '<img src="./assets/auteco-logo.png" class="w-12 h-12 object-contain" alt="Auteco">';
+            return '<img src="/auteco-logo.png" class="w-12 h-12 object-contain" alt="Auteco">';
         case 'Celsia':
-            return '<img src="./assets/celsiaLogo.png" class="w-12 h-12 object-contain" alt="Auteco">';
+            return '<img src="/celsiaLogo.png" class="w-12 h-12 object-contain" alt="Auteco">';
         case 'Auteco':
-            return '<img src="./assets/auteco-logo.png" class="w-12 h-12 object-contain" alt="Auteco">';
+            return '<img src="/auteco-logo.png" class="w-12 h-12 object-contain" alt="Auteco">';
         default:
             return `<div class="w-12 h-12 flex items-center justify-center rounded-md bg-red-500 text-white font-bold text-lg">
                 ${company ? company[0] : "?"}

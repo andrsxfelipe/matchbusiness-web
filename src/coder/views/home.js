@@ -1,4 +1,4 @@
-// import starIcon from '../../assets/star.png';
+// import starIcon from '.././star.png';
 
 export function homeView() {
     const view = `
@@ -26,7 +26,7 @@ export function homeView() {
             <!-- Bloque company -->
             <div
                 class="bg-white rounded-[18px] shadow-[0_4px_24px_0_rgba(126,203,156,0.08)] p-8 w-64 text-center flex flex-col items-center gap-2">
-                <img src="./assets/companie.png" alt="companie" class="w-14 h-14 mb-2">
+                <img src="/companie.png" alt="companie" class="w-14 h-14 mb-2">
                 <p class="font-bold text-[#222] text-lg">For companies</p>
                 <p class="text-[#555] text-base">
                     Find talented developers to solve your business <br> challenges
@@ -34,12 +34,12 @@ export function homeView() {
             </div>
 
             <!-- Logo central -->
-            <img src="./assets/logoBig.png" alt="logo" class="w-20 h-20">
+            <img src="/logoBig.png" alt="logo" class="w-20 h-20">
 
             <!-- Bloque coder -->
             <div
                 class="bg-white rounded-[18px] shadow-[0_4px_24px_0_rgba(126,203,156,0.08)] p-8 w-64 text-center flex flex-col items-center gap-2">
-                <img src="./assets/coder.png" alt="coder" class="w-14 h-14 mb-2">
+                <img src="/coder.png" alt="coder" class="w-14 h-14 mb-2">
                 <p class="font-bold text-[#222] text-lg">For coders</p>
                 <p class="text-[#555] text-base">
                     Showcase your skills and work on exciting real-world <br> projects
@@ -86,7 +86,7 @@ export function homeView() {
 
             <!-- Card 1 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="./assets/lupa.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <img src="/lupa.png" alt="" class="mx-auto mb-4 w-16 h-16">
                 <p class="text-blue-500 font-bold text-xl">1</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Explore Companies</h2>
                 <p class="text-[#555]">
@@ -98,7 +98,7 @@ export function homeView() {
 
             <!-- Card 2 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="./assets/led.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <img src="/led.png" alt="" class="mx-auto mb-4 w-16 h-16">
                 <p class="text-blue-500 font-bold text-xl">2</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Propose your ideas</h2>
                 <p class="text-[#555]">
@@ -110,7 +110,7 @@ export function homeView() {
 
             <!-- Card 3 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="./assets/corazon.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <img src="/corazon.png" alt="" class="mx-auto mb-4 w-16 h-16">
                 <p class="text-blue-500 font-bold text-xl">3</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Make a Match</h2>
                 <p class="text-[#555]">
@@ -134,22 +134,22 @@ export function homeView() {
         <!-- Logos -->
         <div class="partner-logos flex justify-center gap-8 flex-wrap mb-8">
             <div class="partner-logo bg-white rounded-[18px] shadow-md p-4 w-[120px] flex flex-col items-center gap-2">
-                <img src="./assets/smart-fit-logo.png" alt="smart-fit-logo" class="w-16 h-16 object-contain">
+                <img src="/smart-fit-logo.png" alt="smart-fit-logo" class="w-16 h-16 object-contain">
             </div>
             <div class="partner-logo bg-white rounded-[18px] shadow-md p-4 w-[120px] flex flex-col items-center gap-2">
-                <img src="./assets/postobon-logo.png" alt="postobon-logo" class="w-16 h-16 object-contain">
+                <img src="/postobon-logo.png" alt="postobon-logo" class="w-16 h-16 object-contain">
             </div>
             <div class="partner-logo bg-white rounded-[18px] shadow-md p-4 w-[120px] flex flex-col items-center gap-2">
-                <img src="./assets/nequi-logo.png" alt="nequi-logo" class="w-16 h-16 object-contain">
+                <img src="/nequi-logo.png" alt="nequi-logo" class="w-16 h-16 object-contain">
             </div>
             <div class="partner-logo bg-white rounded-[18px] shadow-md p-4 w-[120px] flex flex-col items-center gap-2">
-                <img src="./assets/BlackBird-logo.jpg" alt="BlackBird-logo" class="w-16 h-16 object-contain">
+                <img src="/BlackBird-logo.jpg" alt="BlackBird-logo" class="w-16 h-16 object-contain">
             </div>
             <div class="partner-logo bg-white rounded-[18px] shadow-md p-4 w-[120px] flex flex-col items-center gap-2">
-                <img src="./assets/auteco-logo.png" alt="auteco-logo" class="w-16 h-16 object-contain">
+                <img src="/auteco-logo.png" alt="auteco-logo" class="w-16 h-16 object-contain">
             </div>
             <div class="partner-logo bg-white rounded-[18px] shadow-md p-4 w-[120px] flex flex-col items-center gap-2">
-                <img src="./assets/sistecredito-logo.png" alt="sistecredito-logo" class="w-16 h-16 object-contain">
+                <img src="/sistecredito-logo.png" alt="sistecredito-logo" class="w-16 h-16 object-contain">
             </div>
         </div>
 
@@ -157,7 +157,7 @@ export function homeView() {
         <div class="mt-10">
             <h1 class="text-2xl font-extrabold text-[#222] mb-2">Ready to Start Matching?</h1>
             <p class="text-[#7ecb9c] text-xl font-bold flex items-center justify-center gap-2">
-                <img src="./assets/star.png" alt="start" class="w-6 h-6"> Start matching
+                <img src="/star.png" alt="start" class="w-6 h-6"> Start matching
             </p>
         </div>
     </div>
