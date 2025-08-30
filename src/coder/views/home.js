@@ -1,4 +1,4 @@
-import starIcon from '../../assets/star.png';
+import starIcon from "../../../assets/star.png";
 
 export function homeView() {
     const view = `
