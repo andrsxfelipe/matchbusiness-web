@@ -5,7 +5,7 @@ export function homeView() {
     <div class="text-center py-14 bg-[#f6fcf9]">
         <!-- Texto superior con estrellita -->
         <p class="text-[#7ecb9c] font-semibold text-lg flex items-center justify-center gap-2 mb-3">
-            <img src="./assets/star.png" alt="star" class="w-5 h-5">
+            <img src="/star.png" alt="star" class="w-5 h-5">
             Powered by Innovation
         </p>
 
