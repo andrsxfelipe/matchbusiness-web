@@ -37,8 +37,8 @@ function logIn() {
 
                 if (user.role === "coder") {
                     window.location.href = "/coder";
-                } else if (user.role === "company") {
-                    window.location.href = "/company";
+                } else if (user.role === "company.html") {
+                    window.location.href = "/company.html";
                 }
 
             } catch (error) {
