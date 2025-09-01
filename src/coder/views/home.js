@@ -6,20 +6,10 @@ export function homeView() {
         <!-- Texto superior con estrellita -->
         <div class="flex justify-center mb-8">
             <div
-            class="bg-blue-50 border border-blue-200 rounded-lg px-3 py-1 flex items-center gap-2"
-            >
-            <svg class="w-3 h-3" viewBox="0 0 10 10" fill="none">
-                <path
-                d="M5.16797 1.12902C5.18715 1.09028 5.21677 1.05767 5.25349 1.03488C5.29021 1.01208 5.33257 1 5.37579 1C5.41901 1 5.46137 1.01208 5.49809 1.03488C5.53481 1.05767 5.56443 1.09028 5.5836 1.12902L6.59422 3.17608C6.6608 3.31081 6.75908 3.42738 6.88062 3.51578C7.00217 3.60417 7.14334 3.66175 7.29204 3.68358L9.55216 4.01433C9.59499 4.02053 9.63522 4.0386 9.66831 4.06648C9.70141 4.09436 9.72604 4.13094 9.73942 4.17209C9.7528 4.21324 9.75441 4.25732 9.74404 4.29933C9.73368 4.34134 9.71177 4.37962 9.68079 4.40983L8.04629 6.00145C7.93849 6.1065 7.85784 6.23616 7.81128 6.37929C7.76471 6.52242 7.75363 6.67472 7.77897 6.82308L8.16485 9.07183C8.17241 9.11463 8.16779 9.1587 8.15151 9.199C8.13523 9.23931 8.10794 9.27422 8.07278 9.29976C8.03761 9.32531 7.99597 9.34045 7.9526 9.34347C7.90924 9.34649 7.8659 9.33726 7.82754 9.31683L5.80716 8.25458C5.67404 8.18468 5.52593 8.14816 5.37557 8.14816C5.22521 8.14816 5.0771 8.18468 4.94397 8.25458L2.92404 9.31683C2.88568 9.33713 2.8424 9.34627 2.79911 9.34319C2.75582 9.34011 2.71426 9.32495 2.67917 9.29942C2.64407 9.2739 2.61684 9.23904 2.60057 9.1988C2.58431 9.15857 2.57966 9.11457 2.58716 9.07183L2.9726 6.82352C2.99806 6.67509 2.98703 6.52269 2.94046 6.37947C2.89389 6.23626 2.81318 6.10652 2.70529 6.00145L1.07079 4.41027C1.03955 4.38009 1.01741 4.34175 1.0069 4.29961C0.996382 4.25747 0.997916 4.21322 1.01132 4.17191C1.02473 4.1306 1.04947 4.09388 1.08272 4.06595C1.11598 4.03801 1.15641 4.01997 1.19941 4.01389L3.4591 3.68358C3.60796 3.66192 3.74933 3.60442 3.87104 3.51601C3.99275 3.4276 4.09116 3.31095 4.15779 3.17608L5.16797 1.12902Z"
-                stroke="#1C75BC"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="0.875"
-                />
-            </svg>
-            <span class="text-blue-600 text-xs font-medium"
-                >Powered by Innovation</span
-            >
+            class="bg-blue-50 border border-blue-200 rounded-lg px-3 py-1 flex items-center gap-2">
+            <svg class="w-3 h-3" viewBox="0 0 10 10" fill="none"><path d="M5.168 1.129a.232.232 0 0 1 .416 0l1.01 2.047a.93.93 0 0 0 .698.508l2.26.33a.232.232 0 0 1 .129.396L8.046 6a.93.93 0 0 0-.267.822l.386 2.249a.232.232 0 0 1-.337.245l-2.02-1.062a.93.93 0 0 0-.864 0l-2.02 1.062a.232.232 0 0 1-.337-.245l.386-2.248A.93.93 0 0 0 2.705 6L1.071 4.41a.232.232 0 0 1 .128-.397l2.26-.33a.93.93 0 0 0 .699-.508z" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width=".875"/></svg>
+            <span class="text-blue-600 text-xs font-medium">
+                Powered by Innovation</span>
             </div>
         </div>
 
@@ -40,7 +30,9 @@ export function homeView() {
             <!-- Bloque company -->
             <div
                 class="bg-white rounded-[18px] shadow-[0_4px_24px_0_rgba(126,203,156,0.08)] p-8 w-64 text-center flex flex-col items-center gap-2">
-                <img src="/companie.png" alt="companie" class="w-14 h-14 mb-2">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none">
+                    <path d="M8 29.333v-24a2.667 2.667 0 0 1 2.667-2.666h10.666A2.667 2.667 0 0 1 24 5.333v24zM8 16H5.333a2.667 2.667 0 0 0-2.666 2.667v8a2.667 2.667 0 0 0 2.666 2.666H8M24 12h2.667a2.667 2.667 0 0 1 2.666 2.667v12a2.667 2.667 0 0 1-2.666 2.666H24M13.333 8h5.334m-5.334 5.333h5.334m-5.334 5.334h5.334M13.333 24h5.334" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+                </svg>
                 <p class="font-bold text-[#222] text-lg">For companies</p>
                 <p class="text-[#555] text-base">
                     Find talented developers to solve your business <br> challenges
@@ -48,12 +40,56 @@ export function homeView() {
             </div>
 
             <!-- Logo central -->
-            <img src="/logoBig.png" alt="logo" class="w-20 h-20">
+            <svg class="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 40">
+                <path d="M20 38c9.941 0 18-8.059 18-18S29.941 2 20 2 2 10.059 2 20s8.059 18 18 18" fill="url(#a)" opacity=".1"/>
+                <path d="M12 19a4 4 0 1 0 0-8 4 4 0 0 0 0 8" fill="url(#b)"/>
+                <path d="M28 19a4 4 0 1 0 0-8 4 4 0 0 0 0 8" fill="url(#c)"/>
+                <path d="M16 15h8" stroke="url(#paint3_linear_1_771)" stroke-linecap="round" stroke-width="2"/>
+                <path d="m16 22 4 4 4-4" stroke="url(#d)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                <path d="M8 29.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#e)" opacity=".6"/>
+                <path d="M14 33.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#f)" opacity=".6"/>
+                <path d="M26 33.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#g)" opacity=".6"/>
+                <path d="M32 29.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#h)" opacity=".6"/>
+                <defs>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="a" x1="2" x2="3602" y1="2" y2="3602">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="b" x1="8" x2="808" y1="11" y2="811">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="c" x1="24" x2="824" y1="11" y2="811">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="d" x1="16" x2="336" y1="22" y2="662">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="e" x1="6.5" x2="306.5" y1="26.5" y2="326.5">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="f" x1="12.5" x2="312.5" y1="30.5" y2="330.5">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="g" x1="24.5" x2="324.5" y1="30.5" y2="330.5">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="h" x1="30.5" x2="330.5" y1="26.5" y2="326.5">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                </defs>
+                </svg>
 
             <!-- Bloque coder -->
             <div
                 class="bg-white rounded-[18px] shadow-[0_4px_24px_0_rgba(126,203,156,0.08)] p-8 w-64 text-center flex flex-col items-center gap-2">
-                <img src="/coder.png" alt="coder" class="w-14 h-14 mb-2">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><path d="m21.333 24 8-8-8-8M10.667 8l-8 8 8 8" stroke="#78BE20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/></svg>
                 <p class="font-bold text-[#222] text-lg">For coders</p>
                 <p class="text-[#555] text-base">
                     Showcase your skills and work on exciting real-world <br> projects
@@ -100,7 +136,9 @@ export function homeView() {
 
             <!-- Card 1 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="/lupa.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none">
+  <path d="m28 28-5.787-5.787m-7.546 3.12c5.89 0 10.666-4.775 10.666-10.666S20.558 4 14.667 4 4 8.776 4 14.667c0 5.89 4.776 10.666 10.667 10.666" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+</svg>
                 <p class="text-blue-500 font-bold text-xl">1</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Explore Companies</h2>
                 <p class="text-[#555]">
@@ -112,7 +150,7 @@ export function homeView() {
 
             <!-- Card 2 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="/led.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><path d="M20 18.667c.267-1.334.933-2.267 2-3.334 1.333-1.2 2-2.933 2-4.666a8 8 0 0 0-16 0c0 1.333.267 2.933 2 4.666.933.934 1.733 2 2 3.334M12 24h8m-6.667 5.333h5.334" stroke="#78BE20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/></svg>
                 <p class="text-blue-500 font-bold text-xl">2</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Propose your ideas</h2>
                 <p class="text-[#555]">
@@ -124,7 +162,7 @@ export function homeView() {
 
             <!-- Card 3 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="/corazon.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><path d="M2.667 12.667a7.333 7.333 0 0 1 12.788-4.902.746.746 0 0 0 1.09 0 7.32 7.32 0 0 1 12.788 4.902c0 3.053-2 5.333-4 7.333l-7.322 7.084a2.668 2.668 0 0 1-4 .025L6.667 20c-2-2-4-4.267-4-7.333" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/></svg>
                 <p class="text-blue-500 font-bold text-xl">3</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Make a Match</h2>
                 <p class="text-[#555]">

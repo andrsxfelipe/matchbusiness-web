@@ -24,7 +24,9 @@ export function homeView() {
             <!-- Bloque company -->
             <div
                 class="bg-white rounded-[18px] shadow-[0_4px_24px_0_rgba(126,203,156,0.08)] p-8 w-64 text-center flex flex-col items-center gap-2">
-                <img src="/companie.png" alt="companie" class="w-14 h-14 mb-2">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none">
+                    <path d="M8 29.333v-24a2.667 2.667 0 0 1 2.667-2.666h10.666A2.667 2.667 0 0 1 24 5.333v24zM8 16H5.333a2.667 2.667 0 0 0-2.666 2.667v8a2.667 2.667 0 0 0 2.666 2.666H8M24 12h2.667a2.667 2.667 0 0 1 2.666 2.667v12a2.667 2.667 0 0 1-2.666 2.666H24M13.333 8h5.334m-5.334 5.333h5.334m-5.334 5.334h5.334M13.333 24h5.334" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+                </svg>
                 <p class="font-bold text-[#222] text-lg">For companies</p>
                 <p class="text-[#555] text-base">
                     Find talented developers to solve your business <br> challenges
@@ -32,12 +34,56 @@ export function homeView() {
             </div>
 
             <!-- Logo central -->
-            <img src="/logoBig.png" alt="logo" class="w-20 h-20">
+            <svg class="block w-full h-full" fill="none" preserveAspectRatio="none" viewBox="0 0 40 40">
+                <path d="M20 38c9.941 0 18-8.059 18-18S29.941 2 20 2 2 10.059 2 20s8.059 18 18 18" fill="url(#a)" opacity=".1"/>
+                <path d="M12 19a4 4 0 1 0 0-8 4 4 0 0 0 0 8" fill="url(#b)"/>
+                <path d="M28 19a4 4 0 1 0 0-8 4 4 0 0 0 0 8" fill="url(#c)"/>
+                <path d="M16 15h8" stroke="url(#paint3_linear_1_771)" stroke-linecap="round" stroke-width="2"/>
+                <path d="m16 22 4 4 4-4" stroke="url(#d)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+                <path d="M8 29.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#e)" opacity=".6"/>
+                <path d="M14 33.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#f)" opacity=".6"/>
+                <path d="M26 33.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#g)" opacity=".6"/>
+                <path d="M32 29.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3" fill="url(#h)" opacity=".6"/>
+                <defs>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="a" x1="2" x2="3602" y1="2" y2="3602">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="b" x1="8" x2="808" y1="11" y2="811">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="c" x1="24" x2="824" y1="11" y2="811">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="d" x1="16" x2="336" y1="22" y2="662">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="e" x1="6.5" x2="306.5" y1="26.5" y2="326.5">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="f" x1="12.5" x2="312.5" y1="30.5" y2="330.5">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="g" x1="24.5" x2="324.5" y1="30.5" y2="330.5">
+                    <stop stop-color="#1C75BC"/>
+                    <stop offset="1" stop-color="#3B8FD6"/>
+                    </linearGradient>
+                    <linearGradient gradientUnits="userSpaceOnUse" id="h" x1="30.5" x2="330.5" y1="26.5" y2="326.5">
+                    <stop stop-color="#78BE20"/>
+                    <stop offset="1" stop-color="#89D426"/>
+                    </linearGradient>
+                </defs>
+                </svg>
 
             <!-- Bloque coder -->
             <div
                 class="bg-white rounded-[18px] shadow-[0_4px_24px_0_rgba(126,203,156,0.08)] p-8 w-64 text-center flex flex-col items-center gap-2">
-                <img src="/coder.png" alt="coder" class="w-14 h-14 mb-2">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><path d="m21.333 24 8-8-8-8M10.667 8l-8 8 8 8" stroke="#78BE20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/></svg>
                 <p class="font-bold text-[#222] text-lg">For coders</p>
                 <p class="text-[#555] text-base">
                     Showcase your skills and work on exciting real-world <br> projects
@@ -84,7 +130,9 @@ export function homeView() {
 
             <!-- Card 1 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="/lupa.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none">
+  <path d="m28 28-5.787-5.787m-7.546 3.12c5.89 0 10.666-4.775 10.666-10.666S20.558 4 14.667 4 4 8.776 4 14.667c0 5.89 4.776 10.666 10.667 10.666" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/>
+</svg>
                 <p class="text-blue-500 font-bold text-xl">1</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Explore Companies</h2>
                 <p class="text-[#555]">
@@ -96,7 +144,7 @@ export function homeView() {
 
             <!-- Card 2 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="/led.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><path d="M20 18.667c.267-1.334.933-2.267 2-3.334 1.333-1.2 2-2.933 2-4.666a8 8 0 0 0-16 0c0 1.333.267 2.933 2 4.666.933.934 1.733 2 2 3.334M12 24h8m-6.667 5.333h5.334" stroke="#78BE20" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/></svg>
                 <p class="text-blue-500 font-bold text-xl">2</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Propose your ideas</h2>
                 <p class="text-[#555]">
@@ -108,7 +156,7 @@ export function homeView() {
 
             <!-- Card 3 -->
             <div class="cardIdea max-w-xs bg-[#f9f9f9] rounded-xl shadow-md p-6">
-                <img src="/corazon.png" alt="" class="mx-auto mb-4 w-16 h-16">
+                <svg class="w-8 h-8" viewBox="0 0 32 32" fill="none"><path d="M2.667 12.667a7.333 7.333 0 0 1 12.788-4.902.746.746 0 0 0 1.09 0 7.32 7.32 0 0 1 12.788 4.902c0 3.053-2 5.333-4 7.333l-7.322 7.084a2.668 2.668 0 0 1-4 .025L6.667 20c-2-2-4-4.267-4-7.333" stroke="#1C75BC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667"/></svg>
                 <p class="text-blue-500 font-bold text-xl">3</p>
                 <h2 class="text-xl font-semibold text-[#222] mt-2 mb-3">Make a Match</h2>
                 <p class="text-[#555]">
