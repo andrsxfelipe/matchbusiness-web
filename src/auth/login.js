@@ -2,6 +2,7 @@ import { saveAuth } from "./token.js";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+// Function to handle login modal and authentication
 function logIn() {
     document.getElementById("login-btn").addEventListener("click", (event) => {
         event.preventDefault();

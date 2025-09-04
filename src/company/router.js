@@ -3,6 +3,7 @@ import { codersView, codersSetup } from "./views/coders.js";
 import { ideasView, ideasSetup } from "./views/ideas.js";
 import { matchesView, matchesSetup } from "./views/matches.js";
 
+// Router function to handle navigation based on URL hash
 export function router() {
     const hash = window.location.hash.slice(1);
     switch (hash) {

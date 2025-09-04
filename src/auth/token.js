@@ -1,23 +1,21 @@
-// src/auth/token.js
-
-// Guardar token y datos del usuario en localStorage
+// Save token and user data in localStorage
 export function saveAuth(token, user) {
   localStorage.setItem("authToken", token);
   localStorage.setItem("authUser", JSON.stringify(user));
 }
 
-// Obtener token
+// Retrieve token from localStorage
 export function getToken() {
   return localStorage.getItem("authToken");
 }
 
-// Obtener info del usuario (parseado desde JSON)
+// Retrieve user data from localStorage
 export function getUser() {
   const user = localStorage.getItem("authUser");
   return user ? JSON.parse(user) : null;
 }
 
-// Eliminar token y usuario (logout)
+// Clear token and user data from localStorage
 export function clearAuth() {
   localStorage.removeItem("authToken");
   localStorage.removeItem("authUser");

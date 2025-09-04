@@ -2,6 +2,7 @@ import { getToken } from "../../auth/token.js";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+// View function to render coders page
 export function codersView() {
     const view = `
     <div class="max-w-6xl mx-auto py-10 px-4">
@@ -67,6 +68,7 @@ export function codersView() {
     return view;
 }
 
+// Setup function to fetch and display coders
 export async function codersSetup() {
     const coders = await getCoders();
     const container = document.getElementById('coders-list');
@@ -94,6 +96,7 @@ export async function codersSetup() {
     viewProfile();
 }
 
+// Fetch list of coders from the server
 async function getCoders() {
     try {
         const token = getToken();
@@ -114,6 +117,7 @@ async function getCoders() {
     }
 }
 
+// Handle viewing a coder's profile in a modal
 function viewProfile() {
   document.getElementById("coders-list").addEventListener('click', async (event) => {
     if (event.target.matches("button[data-id]")) {
@@ -142,6 +146,7 @@ function viewProfile() {
   })
 };
 
+// Fetch detailed information about a specific coder
 async function getCoder(coderId){
   try{
     const token = getToken();

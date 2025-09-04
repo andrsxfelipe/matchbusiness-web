@@ -2,6 +2,7 @@ import { getToken, getUser } from "../../auth/token.js";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+// Function to render the matches view
 export function matchesView() {
     const view = `
     <div class="w-full bg-gray-50 min-h-screen">
@@ -18,6 +19,7 @@ export function matchesView() {
     return view;
 }
 
+// Function to fetch and display matches
 export async function matchesSetup() {
     const matches = await getMatches();
     const container = document.getElementById('match-list');
@@ -58,6 +60,7 @@ export async function matchesSetup() {
     });
 }
 
+// Fetch list of matches from the server
 async function getMatches() {
     try {
         const res = await fetch(`${apiUrl}/matches/${getUser().id}`);
@@ -71,6 +74,7 @@ async function getMatches() {
     }
 }
 
+// Get company logo based on company name
 function getCompanyLogo(company) {
     switch (company) {
         case 'Smart Fit':

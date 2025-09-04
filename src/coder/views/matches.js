@@ -2,6 +2,7 @@ import { getToken, getUser } from "../../auth/token.js";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+// View function to render matches page
 export function matchesView(){
     return `
     <div class="max-w-5xl mx-auto px-6 py-10">
@@ -24,6 +25,7 @@ export function matchesView(){
     `;
 }
 
+// Setup function to fetch and display matches
 export async function matchesSetup(){
     const matches = await getMatches();
     const container = document.getElementById('match-list');
@@ -73,6 +75,7 @@ export async function matchesSetup(){
     }
 }
 
+// Fetch matches for the logged-in user
 async function getMatches(){
     try{
         const token = getToken();

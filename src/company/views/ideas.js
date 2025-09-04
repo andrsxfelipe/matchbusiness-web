@@ -2,6 +2,7 @@ import { getToken, getUser } from "../../auth/token.js";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+// Function to render the ideas view
 export function ideasView() {
     const view = `
     <div class="w-full bg-gray-50 min-h-screen">
@@ -18,6 +19,7 @@ export function ideasView() {
     return view;
 }
 
+// Function to fetch and display ideas
 export async function ideasSetup(){
     const ideas = await getIdeas(getUser().id);
     const container = document.getElementById('ideas-list');
@@ -58,6 +60,7 @@ export async function ideasSetup(){
     });
 }
 
+// Fetch ideas for the logged-in company
 async function getIdeas(id) {
     try {
         const res = await fetch(`${apiUrl}/ideas/iduser/${id}`);
@@ -71,6 +74,7 @@ async function getIdeas(id) {
     }
 }
 
+// Get company logo based on company name
 function getCompanyLogo(company) {
     switch (company) {
         case 'Smart Fit':
@@ -88,6 +92,7 @@ function getCompanyLogo(company) {
     }
 }
 
+// Function to handle matching an idea
 export const matchIdea = async (id_idea) => {
     try{
         const res = await fetch(`${apiUrl}/matches`, {

@@ -2,6 +2,7 @@ import { getToken, getUser } from "../../auth/token.js";
 
 const apiUrl = import.meta.env.VITE_API_URL;
 
+// View for managing ideas submitted by the user
 export function ideasView() {
     const view = `
     <div class="w-full bg-gray-50 min-h-screen">
@@ -97,6 +98,7 @@ export function ideasView() {
     return view;
 }
 
+// Setup function to fetch and display ideas, and handle adding/editing
 export async function ideasSetup() {
     const ideas = await getIdeas(getUser().id);
     const container = document.getElementById('ideas-list');
@@ -132,6 +134,7 @@ export async function ideasSetup() {
     editIdea();
 }
 
+// Fetch ideas submitted by the user
 async function getIdeas(id) {
     try {
         const token = getToken();
@@ -146,6 +149,7 @@ async function getIdeas(id) {
     }
 }
 
+// Helper function to get company logo or initials
 function getCompanyLogo(company) {
     switch (company) {
         case 'Smart Fit':
@@ -163,6 +167,7 @@ function getCompanyLogo(company) {
     }
 }
 
+// Handle adding a new idea
 function addIdea() {
     document.getElementById('addIdea').addEventListener('click', async (event) => {
         event.preventDefault();
@@ -176,7 +181,6 @@ function addIdea() {
             throw new Error(`Error http: ${res.status}`);
         }
         const companies = await res.json();
-        // const companies = await getCompanies();
         
         companies.forEach(company => {
             console.log(company.id_company);
@@ -216,6 +220,7 @@ function addIdea() {
     })
 }
 
+// Post a new idea to the server
 async function postIdea(newIdea) {
   try {
     const res = await fetch(`${apiUrl}/ideas`, {
@@ -234,6 +239,7 @@ async function postIdea(newIdea) {
   }
 }
 
+// Handle editing an existing idea
 function editIdea() {
   document.getElementById('ideas-list').addEventListener('click', async (event) => {
     if (event.target.matches("button[data-id]")) {
@@ -271,6 +277,7 @@ function editIdea() {
   })
 }
 
+// Update an existing idea on the server
 async function putIdea(idIdea, updatedData) {
   try {
     const res = await fetch(`${apiUrl}/ideas/${idIdea}`, {

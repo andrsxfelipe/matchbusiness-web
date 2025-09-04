@@ -1,5 +1,4 @@
-// import starIcon from '.././star.png';
-
+// Home view for the landing page
 export function homeView() {
     const view = `
     <div class="text-center py-10 sm:py-14 bg-[#f6fcf9]">
